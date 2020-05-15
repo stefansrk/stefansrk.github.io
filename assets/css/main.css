@@ -11,7 +11,7 @@
 
 body {
   	background-color: #ffffff;
-  	font-family: 'Montserrat', sans-serif;
+  	font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #555;
@@ -22,7 +22,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #333;
 }
@@ -64,9 +64,14 @@ p {
     text-align: center;
 }
 
+.justified{
+	text-align: justify;
+}
+
 /* Links */
 a {
-    color: #1abc9c;
+	color:#d90909;
+    /*color: #1abc9c;*/
     word-wrap: break-word;
     font-style: bold;
 
@@ -79,6 +84,7 @@ a {
 
 a:hover,
 a:focus {
+	
     color: #7b7b7b;
     text-decoration: none;
     outline: 0;
@@ -114,8 +120,9 @@ a:after {
 }
 
 .navbar-inverse {
-	background-color: #1abc9c;
-	border-color: #16a085;
+	background-color:#9c0505;
+	/*background-color: #1abc9c;*/
+	border-color: #9c0505;
 }
 
 .navbar-inverse .navbar-nav > li > a {
