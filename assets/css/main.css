@@ -70,7 +70,7 @@ p {
 
 /* Links */
 a {
-	color:#d90909;
+	color:#068f34;
     /*color: #1abc9c;*/
     word-wrap: break-word;
     font-style: bold;
@@ -120,9 +120,9 @@ a:after {
 }
 
 .navbar-inverse {
-	background-color:#9c0505;
+	background-color:#068f34;
 	/*background-color: #1abc9c;*/
-	border-color: #9c0505;
+	border-color: #068f34;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -148,7 +148,7 @@ a:after {
 }
 
 .progress-bar-theme {
-  background-color: #9c0505;
+  background-color: #068f34;
 }
 
 
